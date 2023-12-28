@@ -1,0 +1,54 @@
+{
+  "student": [
+    {
+      "stuname": "Atul V Chandran",
+      "stuemail": "atulvc2001@gmail.com",
+      "id": 1
+    },
+    {
+      "stuname": "Akhil V Chandran",
+      "stuemail": "akhilvc2007@gmail.com",
+      "id": 2
+    },
+    {
+      "stuname": "Ram V K",
+      "stuemail": "vkrchandran@gmail.com",
+      "id": 3
+    },
+    {
+      "stuname": "Clark Kent",
+      "stuemail": "secretSuperman@gmail.com",
+      "id": 5
+    },
+    {
+      "stuname": "Bruce Wayne",
+      "stuemail": "NotBatman@gmail.com",
+      "id": 6
+    },
+    {
+      "stuname": "Barry Allen",
+      "stuemail": "Fastezzzzz@gmail.com",
+      "id": 7
+    },
+    {
+      "stuname": "Diana",
+      "stuemail": "Wonderwomen@gmail.com",
+      "id": 8
+    },
+    {
+      "stuname": "Hal Jordan",
+      "stuemail": "Greenlantergod@gmail.com",
+      "id": 9
+    },
+    {
+      "stuname": "Ben 10",
+      "stuemail": "Benisthestrongest@gmail.com",
+      "id": 12
+    },
+    {
+      "stuname": "Kairali",
+      "stuemail": "kairali78@gmail.com",
+      "id": 13
+    }
+  ]
+}

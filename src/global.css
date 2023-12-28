@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    color: #ebe7d9;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: #FFF5D0; */
+}
+
+
+
+
+/* navbar starts here */
+
+.navContainer{
+    height:100px;
+    background-color: #0F222D;
+    display: flex;
+}
+
+.logoblock{
+    height:inherit;
+    width:30%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.listblock{
+    height:inherit;
+    width:70%;
+
+}
+
+.listblock ul{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:0px;
+    list-style-type:none;
+    /* float:right; */
+}
+
+/* a{
+    display:inline-block;
+    margin-right:100px;
+} */
+
+/* ul li{
+    margin-right: 200px;
+    display:inline-block;
+} */
+
+a:link {
+    text-decoration: none;
+}
+
+
+/* Student Form begins here */
+.stuform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0px;
+    gap: 10px;
+    border: 10px solid #FFF5D0;
+    border-radius: 25px;
+    width:500px;
+    background-color: #0F222D;
+    color: orangered;
+}
+
+input{
+    color:#0F222D;
+    padding:3px;
+    margin-left:10px;
+}
+
+.formBlock {
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+table {
+    border: 2px orange solid;    
+    padding:2px;
+    text-align: center;
+}
+
+.table-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 35px;
+}
+
+td,th,tr {
+    border : 1px solid orange;
+    padding:10px 10px;
+    background-color: #FFF5D0;
+    color:#0F222D;
+}
+
+.editbtn{
+    padding:7px 12px;
+    background-color: rgb(8, 194, 39);
+    color: white;
+    border:none;
+    border-radius: 8px;
+}
+
+.deletebtn{
+    padding:7px 12px;
+    background-color: rgb(211, 64, 34);
+    color: white;
+    border:none;
+    border-radius: 8px;
+}
+
+.viewbtn{
+    padding:7px 12px;
+    background-color: rgb(31, 10, 218);
+    color: white;
+    border:none;
+    border-radius: 8px;
+}
+
+.table-container .heading {
+    color:#0F222D;
+}
+
+
+/* view single student profile css */
+
+.singleempheading {
+    text-align: center;
+    color:#0F222D;
+}
+
+.singlestucontainer{
+    height: 330px;
+    width:350px;
+    background-color: #0F222D;
+    margin: 0 auto;
+    margin-top: 30px;;
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 2px black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:7px;
+}
+
+.heading {
+    margin-left: 30px;
+    color:#FFF5D0;
+}
+
+.viewsinglestu-container {
+    margin-top:100px;
+    /* background-color: #FFF5D0; */
+}
+
+span {
+    display: block;
+    margin-left:30px;
+}
+
+button {
+    color:#0F222D;
+    padding:7px;
+    background-color: #FFF5D0;
+}
+
+.buttonBlock{
+    margin:25px 30px;
+    display:flex;
+    justify-content: space-between;
+}
+
